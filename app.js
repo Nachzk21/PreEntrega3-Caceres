@@ -1,6 +1,9 @@
 
 alert("Bienvenido a mi pagina, por el momento tu usuario y contraseña para ingresar seran admin y 45623 ")
 
+
+// Inicio de sesion
+
 let usuario = prompt("Bienvenido a mi primer pre entrega, para continuar por favor ingrese el nombre de usuario proporcionado")
 let contraseña = Number(prompt("Ahora ingrese la contraseña"))
 
@@ -11,6 +14,7 @@ if (usuario === "admin" && contraseña == "45623") {
 }
 
 
+// Catalogo
 
 let catalogoPrimero = prompt("Desea acceder al catalogo?")
 
@@ -52,5 +56,5 @@ do {
 }else{
     alert ("Gracias por su visita")
 }
-alert ("Gracias por su visita")
+
 
