@@ -30,9 +30,3 @@
     font-size: 2rem;
 }
 
-@media (max-width: 992px) {
-    .nav-item-right {
-        float: none;
-        clear: both;
-    }
-}
