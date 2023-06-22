@@ -47,11 +47,29 @@
                 </ul>
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item" id="icon">
-                        <i class="btn bi bi-bag"></i>
+                        <i class="btn bi bi-bag" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"></i>
                     </li>
             </div>
         </div>
     </nav>
+
+    <!-- OFFCANVAS -->
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h2 class="offcanvas-title" id="offcanvasExampleLabel">Tu carrito</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body" id="ShowCart">
+        </div>
+        <div class="offcanvas-body" id="totalContainer">
+
+        </div>
+    </div> 
+
+
+
+
 
     <!-- Titulo -->
     <h1 class="contenedorTitulo">
