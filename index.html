@@ -28,7 +28,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                        <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Quienes somos</a>
@@ -47,7 +47,8 @@
                 </ul>
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item" id="icon">
-                        <i class="btn bi bi-bag" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"></i>
+                        <i class="btn bi bi-bag" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                            aria-controls="offcanvasExample"></i>
                     </li>
             </div>
         </div>
@@ -65,7 +66,7 @@
         <div class="offcanvas-body" id="totalContainer">
 
         </div>
-    </div> 
+    </div>
 
 
 
@@ -76,7 +77,29 @@
         <div class="tituloPrimero">Concensionaria de autos</div>
     </h1>
 
-
+    <div class="d-flex justify-content-end">
+        <div class="btn-group">
+            <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                data-bs-auto-close="outside" aria-expanded="false">
+                Filtrar productos
+            </button>
+            <ul class="dropdown-menu" id="filtro">
+                <li><a class="dropdown-item" href="#">Mayor a menor precio</a></li>
+                <li><a class="dropdown-item" href="#">Menor a mayor precio</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Por marca
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Ford</a></li>
+                        <li><a class="dropdown-item" href="#">Chevrolet</a></li>
+                        <li><a class="dropdown-item" href="#">Fiat</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
 
     <!-- produtos -->
     <div id="titulo"></div>

@@ -91,7 +91,7 @@ verCarrito.addEventListener("click", () => {
         <h3>${e.marca} ${e.modelo} </h3>
         <h4>$${e.precio}</h4>
         <h5>Cantidad: ${e.cantidad}</h5>
-        <button class="btn btn-danger btn-sm delete-btn" data-id="${e.id}">Eliminar producto</button>
+        <button class="btn btn-danger btn-sm delete-btn mb-3" data-id="${e.id}">Eliminar producto</button>
         `
         carritoCuerpo.appendChild(productosDelCarrito)
         /* suma el precio total que arranca en 0 al costo total de cada producto agregado*/
